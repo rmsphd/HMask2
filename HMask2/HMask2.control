@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.02</Version>
+  <IncludeInControlInfo>false</IncludeInControlInfo>
+  <SupportFiles />
+  <RuntimeRender>HMask2Render.js</RuntimeRender>
+  <HeightPropertyName>Height</HeightPropertyName>
+  <WidthPropertyName>Width</WidthPropertyName>
+  <ResizeSupported>false</ResizeSupported>
+  <ObjClass>HMask2</ObjClass>
+  <Description>HMask2</Description>
+  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Name>HMask2</Name>
+  <ShowMethod>show</ShowMethod>
+  <ReferencedFiles>
+    <SharedFile>jquery/jquery-min.js</SharedFile>
+    <SharedFile>jquery/jquery.meiomask.compressed.js</SharedFile>
+  </ReferencedFiles>
+  <Constructor>
+    <Parameters />
+    <Name>HMask2</Name>
+  </Constructor>
+  <PropertiesDefinition>HMask2Properties.xml</PropertiesDefinition>
+  <DesignRender>HMask2Render.xsl</DesignRender>
+  <ToolboxIcon>Heurys.ico</ToolboxIcon>
+  <Events />
+  <Methods>
+    <Method>
+      <ReturnType />
+      <Parameters>
+        <Parameter>Character</Parameter>
+      </Parameters>
+      <Signature>ChangePicture(picture:Character)</Signature>
+      <Name>ChangePicture</Name>
+      <Namespace />
+      <FullName>ChangePicture</FullName>
+    </Method>  
+  </Methods>
+  <Actions />
+  <IsPublic>true</IsPublic>
+</ControlDefinition>

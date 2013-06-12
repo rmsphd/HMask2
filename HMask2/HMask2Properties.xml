@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Object id="HMask2">
+    <Group>
+      <Name>General</Name>
+      <Type>Main</Type>
+      <Childs>
+        <Prop>
+          <Id>AttachControl</Id>
+          <Name>AttachControl</Name>
+          <Type>Text</Type>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>Picture</Id>
+          <Name>Picture</Name>
+          <Type>Text</Type>
+          <Metadata />
+        </Prop>
+        <Prop>
+          <Id>Version</Id>
+          <Name>Version</Name>
+          <Type>Text</Type>
+          <Default>2.01</Default>
+          <Metadata>
+            <Value name="FlagReadonly">True</Value>
+            <Value name="FlagScope">DesignTime</Value>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>Reverse</Id>
+          <Name>Reverse</Name>
+          <Type>Boolean</Type>
+          <Default>false</Default>
+          <Metadata>
+            <Value name="FlagScope">DesignTime</Value>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>Signed</Id>
+          <Name>Signed</Name>
+          <Type>Boolean</Type>
+          <Default>false</Default>
+          <Metadata>
+            <Value name="FlagScope">DesignTime</Value>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>UnmaskedChars</Id>
+          <Name>UnmaskedChars</Name>
+          <Type>Text</Type>
+          <Default>[(),:/ -]</Default>
+          <Metadata>
+            <Value name="FlagScope">DesignTime</Value>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>UnmaskedValue</Id>
+          <Name>UnmaskedValue</Name>
+          <Type>Boolean</Type>
+          <Default>false</Default>
+          <Metadata>
+            <Value name="FlagScope">DesignTime</Value>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>GetValue</Id>
+          <Name>GetValue</Name>
+          <Type>Text</Type>
+          <Metadata>
+            <Value name="FlagScope">Runtime</Value>
+            <Value name="FlagReadonly">True</Value>
+          </Metadata>
+        </Prop>
+      </Childs>
+    </Group>
+  </Object>
+</Content>
