@@ -18,16 +18,6 @@
           <Metadata />
         </Prop>
         <Prop>
-          <Id>Version</Id>
-          <Name>Version</Name>
-          <Type>Text</Type>
-          <Default>2.01</Default>
-          <Metadata>
-            <Value name="FlagReadonly">True</Value>
-            <Value name="FlagScope">DesignTime</Value>
-          </Metadata>
-        </Prop>
-        <Prop>
           <Id>Reverse</Id>
           <Name>Reverse</Name>
           <Type>Boolean</Type>
@@ -70,6 +60,29 @@
           <Metadata>
             <Value name="FlagScope">Runtime</Value>
             <Value name="FlagReadonly">True</Value>
+          </Metadata>
+        </Prop>
+        <Prop>
+          <Id>AttachMethod</Id>
+          <Name>AttachMethod</Name>
+          <Type>ComboInt</Type>
+          <Default>0</Default>
+          <Metadata>
+            <Value name="FlagScope">DesignTime</Value>
+            <Value name="FlagReadonly">True</Value>
+          </Metadata>
+          <Values>
+            <Value id="0" desc="Field" />
+            <Value id="1" desc="Grid" />
+          </Values>
+        </Prop>
+        <Prop>
+          <Id>FixedChars</Id>
+          <Name>FixedChars</Name>
+          <Type>Text</Type>
+          <Default>[(),.:/ -]</Default>
+          <Metadata>
+            <Value name="FlagScope">DesignTime</Value>
           </Metadata>
         </Prop>
       </Childs>

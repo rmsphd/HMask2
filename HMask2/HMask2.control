@@ -1,8 +1,12 @@
 <?xml version="1.0"?>
 <ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Version>2.02</Version>
+  <Version>2.03</Version>
+  <AutoGrowSupported>false</AutoGrowSupported>
   <IncludeInControlInfo>false</IncludeInControlInfo>
   <SupportFiles />
+  <iOS_SupportFiles />
+  <Android_SupportFiles />
+  <BB_SupportFiles />
   <RuntimeRender>HMask2Render.js</RuntimeRender>
   <HeightPropertyName>Height</HeightPropertyName>
   <WidthPropertyName>Width</WidthPropertyName>
@@ -11,11 +15,15 @@
   <Description>HMask2</Description>
   <Id>00000000-0000-0000-0000-000000000000</Id>
   <Name>HMask2</Name>
+  <Platforms />
   <ShowMethod>show</ShowMethod>
   <ReferencedFiles>
     <SharedFile>jquery/jquery-min.js</SharedFile>
     <SharedFile>jquery/jquery.meiomask.compressed.js</SharedFile>
   </ReferencedFiles>
+  <iOS_ReferencedFiles />
+  <Android_ReferencedFiles />
+  <BB_ReferencedFiles />
   <Constructor>
     <Parameters />
     <Name>HMask2</Name>
@@ -23,6 +31,8 @@
   <PropertiesDefinition>HMask2Properties.xml</PropertiesDefinition>
   <DesignRender>HMask2Render.xsl</DesignRender>
   <ToolboxIcon>Heurys.ico</ToolboxIcon>
+  <ControlType />
+  <Categories />
   <Events />
   <Methods>
     <Method>
@@ -34,7 +44,7 @@
       <Name>ChangePicture</Name>
       <Namespace />
       <FullName>ChangePicture</FullName>
-    </Method>  
+    </Method>
   </Methods>
   <Actions />
   <IsPublic>true</IsPublic>
