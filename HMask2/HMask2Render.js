@@ -31,6 +31,7 @@ function HMask2()
 
 		
 		
+		
 		///UserCodeRegionEnd: (do not remove this comment.)
 	}
 	///UserCodeRegionStart:[User Functions] (do not remove this comment.)
@@ -211,6 +212,9 @@ function HMask2()
         return true;
     };
 
+
+	
+	
 	
 	///UserCodeRegionEnd: (do not remove this comment.):
 }

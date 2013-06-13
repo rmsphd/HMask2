@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Version>2.03</Version>
+  <Version>2.6</Version>
   <AutoGrowSupported>false</AutoGrowSupported>
   <IncludeInControlInfo>false</IncludeInControlInfo>
   <SupportFiles />
@@ -13,12 +13,12 @@
   <ResizeSupported>false</ResizeSupported>
   <ObjClass>HMask2</ObjClass>
   <Description>HMask2</Description>
-  <Id>00000000-0000-0000-0000-000000000000</Id>
+  <Id>e0966dee-e0d4-47df-917a-c5d2bc5226d8</Id>
   <Name>HMask2</Name>
   <Platforms />
   <ShowMethod>show</ShowMethod>
   <ReferencedFiles>
-    <SharedFile>jquery/jquery-min.js</SharedFile>
+    <SharedFile>jquery/jquery-1.6.2.min.js</SharedFile>
     <SharedFile>jquery/jquery.meiomask.compressed.js</SharedFile>
   </ReferencedFiles>
   <iOS_ReferencedFiles />

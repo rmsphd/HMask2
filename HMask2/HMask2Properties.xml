@@ -54,6 +54,20 @@
           </Metadata>
         </Prop>
         <Prop>
+          <Id>AttachMethod</Id>
+          <Name>AttachMethod</Name>
+          <Type>Combo</Type>
+          <Default>0</Default>
+          <Metadata>
+            <Value name="FlagScope">DesignTime</Value>
+            <Value name="FlagReadonly">False</Value>
+          </Metadata>
+          <Values>
+            <Value id="0" desc="Field" />
+            <Value id="1" desc="Grid" />
+          </Values>
+        </Prop>
+        <Prop>
           <Id>GetValue</Id>
           <Name>GetValue</Name>
           <Type>Text</Type>
@@ -61,20 +75,6 @@
             <Value name="FlagScope">Runtime</Value>
             <Value name="FlagReadonly">True</Value>
           </Metadata>
-        </Prop>
-        <Prop>
-          <Id>AttachMethod</Id>
-          <Name>AttachMethod</Name>
-          <Type>ComboInt</Type>
-          <Default>0</Default>
-          <Metadata>
-            <Value name="FlagScope">DesignTime</Value>
-            <Value name="FlagReadonly">True</Value>
-          </Metadata>
-          <Values>
-            <Value id="0" desc="Field" />
-            <Value id="1" desc="Grid" />
-          </Values>
         </Prop>
         <Prop>
           <Id>FixedChars</Id>
