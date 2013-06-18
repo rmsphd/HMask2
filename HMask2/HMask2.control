@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <ControlDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Version>2.6</Version>
+  <Version>2.7</Version>
   <AutoGrowSupported>false</AutoGrowSupported>
   <IncludeInControlInfo>false</IncludeInControlInfo>
   <SupportFiles />
@@ -19,7 +19,7 @@
   <ShowMethod>show</ShowMethod>
   <ReferencedFiles>
     <SharedFile>jquery/jquery-1.6.2.min.js</SharedFile>
-    <SharedFile>jquery/jquery.meiomask.compressed.js</SharedFile>
+    <SharedFile>jquery/jquery.meio.mask.min.js</SharedFile>
   </ReferencedFiles>
   <iOS_ReferencedFiles />
   <Android_ReferencedFiles />

@@ -118,9 +118,9 @@ function HMask2()
                     $('#'+idatt)[0].onblur = null;
                 } catch (e) {}
             }
-            $('#'+idatt).setMask({mask:pictatt, type: typatt, defaultValue: defatt, signal: sigatt, fixedChars: fixatt});
+            $('#'+idatt).setMask({mask:pictatt, type: typatt, defaultValue: defatt, signal: sigatt, fixedChars: fixatt, autoTab: false, changeMaxLength: false});
             try {
-                $('#span_'+idatt).text($.mask.string( valatt, {mask:pictatt, type: typatt, defaultValue: defatt, signal: sigatt} ));
+                $('#span_'+idatt).text($.mask.string( valatt, {mask:pictatt, type: typatt, defaultValue: defatt, signal: sigatt, autoTab: false, changeMaxLength: false} ));
             } catch (e) {}
             try {
                 var objthis2 = objthis;
